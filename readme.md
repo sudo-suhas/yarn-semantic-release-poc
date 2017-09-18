@@ -5,4 +5,4 @@
 
 > A proof of concept for using yarn with semantic-release
 
-See semantic-release/semantic-release#423
+See [semantic-release/semantic-release#423](https://github.com/semantic-release/semantic-release/issues/423)
