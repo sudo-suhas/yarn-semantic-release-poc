@@ -1,0 +1,16 @@
+{
+  "name": "yarn-semantic-release-poc",
+  "version": "0.0.0-development",
+  "description": "A proof of concept for using yarn with semantic-release",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudo-suhas/yarn-semantic-release-poc.git"
+  },
+  "author": "Suhas Karanth <sudo.suhas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.1.0"
+  },
+  "private": false
+}
