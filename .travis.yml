@@ -12,5 +12,7 @@ script: node .
 
 after_success:
   - yarn global add semantic-release
-  - semantic-release pre && yarn publish --non-interactive && semantic-release post
+  - 'semantic-release pre &&
+    yarn publish --new-version `yarn run -s print-version` &&
+    semantic-release post'
 

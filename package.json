@@ -3,14 +3,20 @@
   "version": "0.0.0-development",
   "description": "A proof of concept for using yarn with semantic-release",
   "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "print-version": "cross-env-shell echo $npm_package_version"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5"
+  },
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/sudo-suhas/yarn-semantic-release-poc.git"
   },
-  "author": "Suhas Karanth <sudo.suhas@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^2.1.0"
-  },
-  "private": false
+  "author": "Suhas Karanth <sudo.suhas@gmail.com>"
 }
